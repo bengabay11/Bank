@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Bank">
+      <UniqueIdentifier>{4e11d530-33d6-4d31-b9b1-513829830155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{9b7eaad2-5ecd-49fa-9b9c-23aa40196377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bank">
+      <UniqueIdentifier>{370ba8bd-ed5f-49a7-bd53-26db7bef091e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{e4ead573-dda6-49d9-8aae-b277316750af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{650ee318-4ea2-46d8-879c-7897ce2d3c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{5e51d435-6b4c-4d24-8096-a988ecf317af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Abstractions">
+      <UniqueIdentifier>{e6c8027a-198f-4c0e-8df2-2b55b99add9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu\Abstractions">
+      <UniqueIdentifier>{2b0e5b05-4a68-4985-a478-380d1b15aef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bank\Abstractions">
+      <UniqueIdentifier>{b4e16295-1d5c-4fae-b088-1da920d8f3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bank\BankMenuOptions">
+      <UniqueIdentifier>{5f441740-3fa6-4e0f-b7d0-e264999a3faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bank\BankMenuOptions">
+      <UniqueIdentifier>{364ec781-cb63-4c68-b55e-ba492ecfb5ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bank\Bank.cpp">
+      <Filter>Source Files\Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bank\Account.cpp">
+      <Filter>Source Files\Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu\NumericMenu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\ConsoleReaderProducer.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\ConsoleWriterProducer.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bank\BankMenuOptions\CreateAccountMenuOption.cpp">
+      <Filter>Source Files\Bank\BankMenuOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bank\BankMenuOptions\DeleteAccountMenuOption.cpp">
+      <Filter>Source Files\Bank\BankMenuOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bank\BankMenuOptions\ShowAccountMenuOption.cpp">
+      <Filter>Source Files\Bank\BankMenuOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bank\BankMenuOptions\ShowAllAcountsMenuOption.cpp">
+      <Filter>Source Files\Bank\BankMenuOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bank\BankMenuOptions\ShowBankMenuOption.cpp">
+      <Filter>Source Files\Bank\BankMenuOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bank\BankMenuOptions\TransactMenuOption.cpp">
+      <Filter>Source Files\Bank\BankMenuOptions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Bank\Account.h">
+      <Filter>Header Files\Bank</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bank\Bank.h">
+      <Filter>Header Files\Bank</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu\NumericMenu.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI\ConsoleWriterProducer.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI\ConsoleReaderProducer.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI\Abstractions\IReaderProducer.h">
+      <Filter>Header Files\UI\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI\Abstractions\IWriterProducer.h">
+      <Filter>Header Files\UI\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu\Abstractions\MenuOptionBase.h">
+      <Filter>Header Files\Menu\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bank\BankMenuOptions\CreateAccountMenuOption.h">
+      <Filter>Header Files\Bank\BankMenuOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bank\BankMenuOptions\DeleteAccountMenuOption.h">
+      <Filter>Header Files\Bank\BankMenuOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bank\BankMenuOptions\ShowAccountMenuOption.h">
+      <Filter>Header Files\Bank\BankMenuOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bank\BankMenuOptions\ShowAllAccountsMenuOption.h">
+      <Filter>Header Files\Bank\BankMenuOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bank\BankMenuOptions\ShowBankMenuOption.h">
+      <Filter>Header Files\Bank\BankMenuOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bank\BankMenuOptions\TransactMenuOption.h">
+      <Filter>Header Files\Bank\BankMenuOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bank\Abstractions\AccountBase.h">
+      <Filter>Header Files\Bank\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bank\Abstractions\BankBase.h">
+      <Filter>Header Files\Bank\Abstractions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
